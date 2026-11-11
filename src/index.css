@@ -1,0 +1,39 @@
+/* Neue Montreal: drop the licensed .woff2 files in /public/fonts.
+   Until then the stack falls back to Inter Tight (see tailwind.config.js). */
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('/fonts/NeueMontreal-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('/fonts/NeueMontreal-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('/fonts/NeueMontreal-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background: #000;
+  }
+  body {
+    @apply bg-brand-black font-sans font-light text-brand-white antialiased;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: #fff;
+    color: #000;
+  }
+}
