@@ -1,0 +1,11 @@
+<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- EN / DIN European Standard Certification Mark -->
+  <g>
+    <!-- Badge shape -->
+    <rect x="18" y="22" width="60" height="56" rx="6" fill="#111111"/>
+    <text x="48" y="58" font-family="'Neue Montreal', 'Inter Tight', sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">EN</text>
+    <!-- Text -->
+    <text x="92" y="48" font-family="'Neue Montreal', 'Inter Tight', sans-serif" font-size="22" font-weight="800" letter-spacing="-0.5" fill="#111111">EUROPEAN</text>
+    <text x="92" y="72" font-family="'Neue Montreal', 'Inter Tight', sans-serif" font-size="18" font-weight="700" letter-spacing="1.5" fill="#5B5B5B">STANDARDS</text>
+  </g>
+</svg>

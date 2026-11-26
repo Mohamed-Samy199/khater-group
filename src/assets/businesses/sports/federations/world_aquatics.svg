@@ -1,0 +1,11 @@
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- World Aquatics official style mark -->
+  <g>
+    <!-- Waves graphic -->
+    <path d="M18 58 Q 32 44, 46 58 T 74 58" fill="none" stroke="#0083BD" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M18 42 Q 32 28, 46 42 T 74 42" fill="none" stroke="#14C1E2" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- Text -->
+    <text x="90" y="48" font-family="'Neue Montreal', 'Inter Tight', sans-serif" font-size="22" font-weight="800" letter-spacing="-0.5" fill="#111111">WORLD</text>
+    <text x="90" y="72" font-family="'Neue Montreal', 'Inter Tight', sans-serif" font-size="20" font-weight="700" letter-spacing="1" fill="#0083BD">AQUATICS</text>
+  </g>
+</svg>
